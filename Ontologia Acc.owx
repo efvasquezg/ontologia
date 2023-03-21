@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sofia/ontologies/2023/2/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sofia/ontologies/2023/2/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/sofia/ontologies/2023/2/untitled-ontology-7/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AAA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgenteInteligentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentesPrediccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuditoriasAccesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AyudasInteligentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comprensible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entrada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstándaresAccesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluacionAccesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HerramientasAutomaticas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heuristica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limitaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limitaciones_Cognitivas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limitaciones_Físicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limitaciones_Motrices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogicaDifusa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metricas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monitoreo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorInferencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NivelesConformidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NivelesPertenencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PautaComprensible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PautaOperable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PautaPerceptible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PautaRobusto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perceptible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Principios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PruebasManuales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReglasComportamiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robusto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VariablesLinguisticas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web4_0"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneEvaluacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLimitaciones"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLogicaDifusa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneWeb4_0"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiposVariables"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#descripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#limitacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneMetricas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enfermedad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PropuestaWeb4_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Usuario1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#A"/>
+        <Class IRI="#NivelesConformidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AA"/>
+        <Class IRI="#NivelesConformidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAA"/>
+        <Class IRI="#NivelesConformidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgenteInteligentes"/>
+        <Class IRI="#Web4_0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentesPrediccion"/>
+        <Class IRI="#LogicaDifusa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuditoriasAccesibilidad"/>
+        <Class IRI="#EvaluacionAccesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AyudasInteligentes"/>
+        <Class IRI="#Web4_0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comprensible"/>
+        <Class IRI="#Principios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entrada"/>
+        <Class IRI="#VariablesLinguisticas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstándaresAccesibilidad"/>
+        <Class IRI="#EvaluacionAccesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluacionAccesibilidad"/>
+        <Class IRI="#Accesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HerramientasAutomaticas"/>
+        <Class IRI="#EvaluacionAccesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heuristica"/>
+        <Class IRI="#EvaluacionAccesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limitaciones_Cognitivas"/>
+        <Class IRI="#Limitaciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limitaciones_Físicas"/>
+        <Class IRI="#Limitaciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limitaciones_Motrices"/>
+        <Class IRI="#Limitaciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metricas"/>
+        <Class IRI="#EvaluacionAccesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monitoreo"/>
+        <Class IRI="#Web4_0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorInferencia"/>
+        <Class IRI="#LogicaDifusa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NivelesConformidad"/>
+        <Class IRI="#Accesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NivelesPertenencia"/>
+        <Class IRI="#LogicaDifusa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operable"/>
+        <Class IRI="#Principios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PautaComprensible"/>
+        <Class IRI="#Comprensible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PautaOperable"/>
+        <Class IRI="#Operable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PautaPerceptible"/>
+        <Class IRI="#Perceptible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PautaRobusto"/>
+        <Class IRI="#Robusto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perceptible"/>
+        <Class IRI="#Principios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Principios"/>
+        <Class IRI="#Accesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PruebasManuales"/>
+        <Class IRI="#EvaluacionAccesibilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReglasComportamiento"/>
+        <Class IRI="#LogicaDifusa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robusto"/>
+        <Class IRI="#Principios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salida"/>
+        <Class IRI="#VariablesLinguisticas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariablesLinguisticas"/>
+        <Class IRI="#LogicaDifusa"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Enfermedad"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcion"/>
+        <NamedIndividual IRI="#Enfermedad"/>
+        <Literal>disminucion progresiva de su vision</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#limitacion"/>
+        <NamedIndividual IRI="#Enfermedad"/>
+        <Literal>fisica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Enfermedad"/>
+        <Literal>Baja vision</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcion"/>
+        <NamedIndividual IRI="#PropuestaWeb4_0"/>
+        <Literal>alternativas al contenido visual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcion"/>
+        <NamedIndividual IRI="#PropuestaWeb4_0"/>
+        <Literal>contraste alto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcion"/>
+        <NamedIndividual IRI="#PropuestaWeb4_0"/>
+        <Literal>opciones de zoom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Usuario1"/>
+        <Literal>Juan</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneWeb4_0"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#tieneLimitaciones"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneEvaluacion"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#EvaluacionAccesibilidad"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLimitaciones"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLogicaDifusa"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#LogicaDifusa"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneWeb4_0"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Web4_0"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiposVariables"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#VariablesLinguisticas"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEvaluacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#AuditoriasAccesibilidad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEvaluacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#EstándaresAccesibilidad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEvaluacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#HerramientasAutomaticas"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEvaluacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Heuristica"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEvaluacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Metricas"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEvaluacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#PruebasManuales"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLimitaciones"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones_Cognitivas"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLimitaciones"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones_Físicas"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLimitaciones"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones_Motrices"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLogicaDifusa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#AgentesPrediccion"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLogicaDifusa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#MotorInferencia"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLogicaDifusa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#NivelesPertenencia"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLogicaDifusa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#ReglasComportamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLogicaDifusa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#VariablesLinguisticas"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneWeb4_0"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#AgenteInteligentes"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneWeb4_0"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#AyudasInteligentes"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneWeb4_0"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Monitoreo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiposVariables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Entrada"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiposVariables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Salida"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#limitacion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tieneMetricas"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#descripcion"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#nombre"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descripcion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Accesibilidad"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descripcion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#EvaluacionAccesibilidad"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#limitacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones_Cognitivas"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones_Físicas"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Limitaciones_Motrices"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#PautaComprensible"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#PautaOperable"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#PautaPerceptible"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#PautaRobusto"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneMetricas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#EvaluacionAccesibilidad"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#descripcion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#limitacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneMetricas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
